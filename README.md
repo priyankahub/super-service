@@ -45,6 +45,7 @@ A. Deploy NGINX Ingress Controller
 
 Add the NGINX Ingress Controller Helm repository:
 >> helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+>> 
 >> helm repo update
 
 Install the NGINX Ingress Controller using Helm:
