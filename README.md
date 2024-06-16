@@ -17,7 +17,9 @@ B. Create an EKS Cluster (named super-service-cluster with 3 t3.medium nodes) us
 
 C. Install and connect kubectl to the Cluster-
 >> curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.21.0/2021-09-09/bin/linux/amd64/kubectl
+>> 
 >> chmod +x ./kubectl
+>> 
 >> mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$PATH:$HOME/bin
 
 D. Update kubeconfig:
