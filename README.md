@@ -6,6 +6,7 @@ Steps to set up the infrastructure for the application using AWS-
 3. Ingress Controller Setup
 4. Monitoring and Notifications
 5. CI/CD Pipeline Setup
+   
 **----------------------------------[Step 1: K8s Setup on AWS]-----------------------------------------------**
 
 A. Install AWS CLI command-
